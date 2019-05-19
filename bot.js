@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 var prefix = "$"
 var adminprefix = '&'
-const developers = ["541614978319384597","id"]
+const developers = ["445325191732789248","id"]
  
 client.on('message', message => {
     var p = message.mentions.members.first();
@@ -341,7 +341,7 @@ client.on('message', message => {
 });
 //////
 client.on("guildMemberAdd", member => {
-  client.channels.find('id', '563863609441124363').send(` **Welcome To __Te__st Server**  `)
+  client.channels.find('id', '579420283723710494').send(` **Welcome To __Te__st Server**  `)
 }); 
 /////////
 client.login(process.env.BOT_TOKEN);
